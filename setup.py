@@ -14,4 +14,7 @@ setup(
 	classifiers=[
 		'License :: OSI Approved :: BSD License',
 	],
+	install_requires=[
+		'deep-phonemizer',
+	],
 )
