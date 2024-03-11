@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
@@ -11,10 +13,6 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/NeuralVox/OpenPhonemizer',
     license='BSD-3-Clause',
-    classifiers=[
-	    'License :: OSI Approved :: BSD License',
-	],
-    install_requires=[
-        'deep-phonemizer',
-    ],
+    classifiers=['License :: OSI Approved :: BSD License'],
+    install_requires=['deep-phonemizer'],
 )
