@@ -11,10 +11,10 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/NeuralVox/OpenPhonemizer',
     license='BSD-3-Clause',
-	classifiers=[
-		'License :: OSI Approved :: BSD License',
+    classifiers=[
+	    'License :: OSI Approved :: BSD License',
 	],
-	install_requires=[
-		'deep-phonemizer',
-	],
+    install_requires=[
+        'deep-phonemizer',
+    ],
 )
