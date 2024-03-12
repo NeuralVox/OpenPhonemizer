@@ -1,0 +1,97 @@
+paths:
+  checkpoint_dir: checkpoints
+  data_dir: datasets
+
+preprocessing:
+  languages: ["en_us"]
+  text_symbols: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  phoneme_symbols:
+    [
+      "a",
+      "b",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z",
+      "æ",
+      "ç",
+      "ð",
+      "ø",
+      "ŋ",
+      "œ",
+      "ɐ",
+      "ɑ",
+      "ɔ",
+      "ə",
+      "ɛ",
+      "ɝ",
+      "ɹ",
+      "ɡ",
+      "ɪ",
+      "ʁ",
+      "ʃ",
+      "ʊ",
+      "ʌ",
+      "ʏ",
+      "ʒ",
+      "ʔ",
+      "ˈ",
+      "ˌ",
+      "ː",
+      "̃",
+      "̍",
+      "̥",
+      "̩",
+      "̯",
+      "͡",
+      "θ",
+      "'",
+    ]
+  char_repeats: 3
+  lowercase: true
+  n_val: 5000
+model:
+  type: "transformer"
+  d_model: 512
+  d_fft: 1024
+  layers: 6
+  dropout: 0.1
+  heads: 4
+
+training:
+  learning_rate: 0.0001
+  warmup_steps: 10000
+  scheduler_plateau_factor: 0.5
+  scheduler_plateau_patience: 10
+  batch_size: 32
+  batch_size_val: 32
+  epochs: 500
+  generate_steps:
+    10000
+  validate_steps:
+    10000
+  checkpoint_steps: 100000
+  n_generate_samples: 10
+  store_phoneme_dict_in_model:
+    true
+  ddp_backend: "nccl"
+  ddp_host: "localhost"
+  ddp_post: "12355"

@@ -17,5 +17,6 @@ setup(
     install_requires=[
         "deep-phonemizer",
         "cached-path",
+        "num2words",
     ],
 )
