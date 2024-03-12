@@ -2,7 +2,16 @@
 
 A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by deep learning. This Phonemizer attempts to replicate the `espeak` Phonemizer while remaining permissively-licensed.
 
+* Project status: Alpha
+* Supported languages: English (more coming soon!)
+
+## Usage
+
 **Coming soon**
+
+## Evaluation
+
+Coming soon: evaluation on accuracy (% of `espeak` accuracy)
 
 ## Credits
 
