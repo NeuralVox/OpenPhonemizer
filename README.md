@@ -46,8 +46,8 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 
 ## License
 
-OpenPhonemizer is open source software. You may use it under the BSD-3-Clause license found in the LICENSE file.
+OpenPhonemizer is open source software. You may use it under the BSD-3-Clause Clear license found in the LICENSE file.
 
-**Please note** that certain tools provided with OpenPhonemizer are licensed under the GNU General Public License, version 3.0, as certain parts of OpenPhonemizer rely on the `phonemizer` library. These components have been isolated and are not linked by the rest of the software. Unless otherwise specified in a README file, all other components of OpenPhonemizer are licensed under the BSD-3-Clause license.
+**Please note** that certain tools provided with OpenPhonemizer are licensed under the GNU General Public License, version 3.0, as certain parts of OpenPhonemizer rely on the `phonemizer` library. These components have been isolated and are not linked by the rest of the software. Unless otherwise specified in a README file, all other components of OpenPhonemizer are licensed under the BSD-3-Clause Clear license.
 
 *By contributing to this repository, you grant the author the permission to change the license in the future at their sole discretion.*
