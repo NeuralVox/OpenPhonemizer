@@ -81,14 +81,14 @@ training:
   warmup_steps: 10000
   scheduler_plateau_factor: 0.5
   scheduler_plateau_patience: 10
-  batch_size: 32
-  batch_size_val: 32
-  epochs: 500
+  batch_size: 1024
+  batch_size_val: 128
+  epochs: 15
   generate_steps:
     10000
   validate_steps:
     10000
-  checkpoint_steps: 100000
+  checkpoint_steps: 10000
   n_generate_samples: 10
   store_phoneme_dict_in_model:
     true

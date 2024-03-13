@@ -28,21 +28,21 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | Phonemizer | Score |
 | --- | --- |
 | Gruut | 75.08 |
-| Deep Phonemizer | 93.6 |
+| Deep Phonemizer | 85.24 |
 
 **Run 2**
 
 | Phonemizer | Score |
 | --- | --- |
 | Gruut | 75.54 |
-| Deep Phonemizer | 93.47 |
+| Deep Phonemizer | 85.03 |
 
 **Run 3**
 
 | Phonemizer | Score |
 | --- | --- |
 | Gruut | 73.72 |
-| Deep Phonemizer | 93.68 |
+| Deep Phonemizer | 84.64 |
 
 ## License
 

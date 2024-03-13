@@ -4,7 +4,7 @@ from tqdm import tqdm
 from random import sample
 from cached_path import cached_path
 
-phonemizer = Phonemizer.from_checkpoint(
+phnphonemizer = Phonemizer.from_checkpoint(
     str(
         cached_path(
             "https://public-asai-dl-models.s3.eu-central-1.amazonaws.com/DeepPhonemizer/en_us_cmudict_ipa_forward.pt"
@@ -44,11 +44,11 @@ def gruut(text):
     return phonemized_text
 
 
-with open("../data_creation/en.txt") as f:
+with open("phrases.txt") as f:
     text = sample(f.read().strip().splitlines(), 100)
 x = []
 for t in tqdm(text):
-    # x.append(fuzz.ratio(phonemizerfunc(t), phonemizer.phonemize(t)))
+    # x.append(fuzz.ratio(phonemizerfunc(t), phnphonemizer.phonemize(t)))
     x.append(fuzz.ratio(phonemizerfunc(t), gruut(t)))
 
 print("Avg score:", sum(x) / len(x))
