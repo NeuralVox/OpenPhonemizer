@@ -7,17 +7,24 @@ A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by dee
 * Project status: Alpha
 * Supported languages: English (more coming soon!)
 
+## Installation
+
+
+```bash
+pip install "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer"
+```
+
 ## Usage
 
-**Coming soon**
+### OpenPhonemizer
 
-## Evaluation
-
-Coming soon: evaluation on accuracy (% of `espeak` accuracy)
-
-## Credits
-
-Parts of OpenPhonemizer are based on [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer).
+```python
+from openphonemizer import OpenPhonemizer
+phonemizer = OpenPhonemizer()
+# Or specify a custom checkpoint path: OpenPhonemizer('model.pt')
+phonemizer('test')
+phonemizer('hello this is a test')
+```
 
 ## Evaluation
 
@@ -51,3 +58,9 @@ OpenPhonemizer is open source software. You may use it under the BSD-3-Clause Cl
 **Please note** that certain tools provided with OpenPhonemizer are licensed under the GNU General Public License, version 3.0, as certain parts of OpenPhonemizer rely on the `phonemizer` library. These components have been isolated and are not linked by the rest of the software. Unless otherwise specified in a README file, all other components of OpenPhonemizer are licensed under the BSD-3-Clause Clear license.
 
 *By contributing to this repository, you grant the author the permission to change the license in the future at their sole discretion.*
+
+**NOTE:** Model weights may be licensed under different licenses. Please make sure to check all model weights for licenses.
+
+## Credits
+
+Parts of OpenPhonemizer are based on [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer).
