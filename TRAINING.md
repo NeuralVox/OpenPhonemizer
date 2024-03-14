@@ -25,9 +25,9 @@ from dp.utils.io import read_config, save_config
 import dp
 import os
 
-config_file = 'training/config.yml'
+config_file = 'config.yml'
 config = read_config(config_file)
-config['training']['epochs'] = 100
+config['training']['epochs'] = 10
 config['training']['warmup_steps'] = 100
 config['training']['generate_steps'] = 500
 config['training']['validate_steps'] = 500
