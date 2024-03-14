@@ -43,7 +43,7 @@ class OpenPhonemizer:
         if torch.cuda.is_available(): device = 'cuda'
         if torch.backends.mps.is_available(): device = 'mps'
         if not model_checkpoint:
-            model_checkpoint = str(cached_path('hf://openphonemizer/ckpt-001-alpha/prelim_ckpts/model_step_20k_fixed.pt'))
+            model_checkpoint = str(cached_path('hf://openphonemizer/ckpt/best_model_no_optim.pt'))
         self.phonemizer = Phonemizer.from_checkpoint(model_checkpoint, device=device)
         self.pattern = re.compile(r'\d+')
     def _num_process(self, text):
