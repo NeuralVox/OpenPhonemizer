@@ -45,7 +45,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/NeuralVox/OpenPhonemizer",
-    license="BSD-3-Clause",
+    license="BSD-3-Clause-Clear",
     classifiers=[
         "License :: OSI Approved :: BSD License",
     ],
