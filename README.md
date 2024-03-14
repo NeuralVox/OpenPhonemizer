@@ -1,6 +1,6 @@
 # OpenPhonemizer
 
-**[Audio Samples](https://neuralvox.github.io/OpenPhonemizer/)**
+**[Audio Samples](https://neuralvox.github.io/OpenPhonemizer/) / [Live Demo](https://huggingface.co/spaces/openphonemizer/PhonemizerHub)**
 
 A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by deep learning. This Phonemizer attempts to replicate the `espeak` Phonemizer while remaining permissively-licensed.
 
