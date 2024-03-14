@@ -4,6 +4,8 @@
 
 A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by deep learning. This Phonemizer attempts to replicate the `espeak` Phonemizer while remaining permissively-licensed.
 
+OpenPhonemizer is heavily based on the amazing [OpenPhonemizer](https://github.com/as-ideas/DeepPhonemizer). The main change are the model checkpoints, which more closely resembles `espeak`'s phonemizer.
+
 ## Project
 
 * Project status: Alpha
