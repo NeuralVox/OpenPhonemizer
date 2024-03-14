@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenPhonemizer Samples: StyleTTS 2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>OpenPhonemizer Samples: StyleTTS 2</h1>
+    <p>OpenPhonemizer samples, run with StyleTTS 2. With minimal further finetuning, a result indistinguishable from Espeak using OpenPhonemizer should be easily attainable.</p>
+    <table>
+        <tr>
+            <th>Phrase</th>
+            <th>Espeak (Ground Truth)</th>
+            <th>OpenPhonemizer (Ours)</th>
+            <th>Gruut</th>
+            <th>G2P_EN</th>
+            <th>DeepPhonemizer</th>
+        </tr>
+        <tr>
+            <td>The birch canoe slid on the smooth planks.</td>
+            <td><audio src="1/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="1/op.wav" preload="none" controls></audio></td>
+            <td><audio src="1/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="1/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="1/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>Glue the sheet to the dark blue background.</td>
+            <td><audio src="2/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="2/op.wav" preload="none" controls></audio></td>
+            <td><audio src="2/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="2/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="2/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>It's easy to tell the depth of a well.</td>
+            <td><audio src="3/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="3/op.wav" preload="none" controls></audio></td>
+            <td><audio src="3/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="3/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="3/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>These days a chicken leg is a rare dish.</td>
+            <td><audio src="4/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="4/op.wav" preload="none" controls></audio></td>
+            <td><audio src="4/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="4/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="4/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>Rice is often served in round bowls.</td>
+            <td><audio src="5/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="5/op.wav" preload="none" controls></audio></td>
+            <td><audio src="5/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="5/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="5/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>The juice of lemons makes fine punch.</td>
+            <td><audio src="6/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="6/op.wav" preload="none" controls></audio></td>
+            <td><audio src="6/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="6/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="6/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>The box was thrown beside the parked truck.</td>
+            <td><audio src="7/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="7/op.wav" preload="none" controls></audio></td>
+            <td><audio src="7/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="7/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="7/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>The hogs were fed chopped corn and garbage.</td>
+            <td><audio src="8/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="8/op.wav" preload="none" controls></audio></td>
+            <td><audio src="8/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="8/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="8/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>Four hours of steady work faced us.</td>
+            <td><audio src="9/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="9/op.wav" preload="none" controls></audio></td>
+            <td><audio src="9/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="9/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="9/dp.wav" preload="none" controls></audio></td>
+        </tr>
+        <tr>
+            <td>A large size in stockings is hard to sell.</td>
+            <td><audio src="10/espeak.wav" preload="none" controls></audio></td>
+            <td><audio src="10/op.wav" preload="none" controls></audio></td>
+            <td><audio src="10/gruut.wav" preload="none" controls></audio></td>
+            <td><audio src="10/g2p.wav" preload="none" controls></audio></td>
+            <td><audio src="10/dp.wav" preload="none" controls></audio></td>
+        </tr>
+    </table>
+    <p><small><i>Some phrases sourced from <a href="https://www.cs.columbia.edu/~hgs/audio/harvard.html" target="_blank" rel="noopener">Harvard Sentences</a>. Audio samples are licensed under the CC-BY-SA 4.0 license and generated with StyleTTS 2.</i></small></p>
+</body>
+</html>
