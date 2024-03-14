@@ -9,6 +9,13 @@ A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by dee
 
 ## Installation
 
+Easily install OpenPhonemizer:
+
+```bash
+pip install openphonemizer
+```
+
+Or, install the latest version from Git:
 
 ```bash
 pip install "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer"
