@@ -63,4 +63,4 @@ OpenPhonemizer is open source software. You may use it under the BSD-3-Clause Cl
 
 ## Credits
 
-Parts of OpenPhonemizer are based on [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer).
+OpenPhonemizer is heavily based on [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer). Special thanks to [Christian Schäfer](https://github.com/cschaefer26), who created Deep Phonemizer.

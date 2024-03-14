@@ -10,7 +10,7 @@ Assuming you're using Jupyter:
 
 ```python
 !wget https://huggingface.co/datasets/mrfakename/ipa-phonemes-word-pairs/raw/main/out.tsv
-with open('eng_latn_us_broad.tsv', 'r', encoding='utf-8') as f:
+with open('out.tsv', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 lines = [l.replace(' ', '').replace('\n', '') for l in lines]
@@ -45,7 +45,7 @@ for k, v in config.items():
 from dp.preprocess import preprocess
 from dp.train import train
 preprocess(config_file='config.yaml', train_data=train_data)
-train(config_file='config.yaml')
+train(rank=0, num_gpus=1, config_file='config.yaml')
 ```
 
 ```python

@@ -42,6 +42,7 @@ preprocessing:
       "ɔ",
       "ə",
       "ɛ",
+      "ɜ",
       "ɝ",
       "ɹ",
       "ɡ",
@@ -81,8 +82,8 @@ training:
   warmup_steps: 10000
   scheduler_plateau_factor: 0.5
   scheduler_plateau_patience: 10
-  batch_size: 1024
-  batch_size_val: 128
+  batch_size: 64
+  batch_size_val: 64
   epochs: 15
   generate_steps:
     10000
