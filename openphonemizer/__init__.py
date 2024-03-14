@@ -53,4 +53,4 @@ class OpenPhonemizer:
             text = text.replace(match, word_equivalent)
         return text
     def __call__(self, text):
-        return self.phonemizer(self._num_process(text), lang='en_us')
+        return self.phonemizer(self._num_process(text.replace(' .', '.').replace('.', ' .')), lang='en_us')
