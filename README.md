@@ -8,10 +8,17 @@ OpenPhonemizer is heavily based on the amazing [DeepPhonemizer](https://github.c
 
 Optional GPL-licensed portions are available [here](https://github.com/NeuralVox/OpenPhonemizer-GPL).
 
+## Features
+
+* Permissively licensed & open source
+* Fast & efficient
+* Works well with TTS models depending on phonemizer or espeak
+* Automatic GPU acceleration (CUDA/MPS) if available
+
 ## Project
 
 * Project status: Alpha
-* Supported languages: English (more coming soon!)
+* Supported languages: English (more coming soon! What languages do you want? Let me know!)
 
 ## Installation
 
@@ -66,6 +73,11 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | Gruut | 73.72 |
 | DeepPhonemizer | 84.64 |
 | OpenPhonemizer | 93.38 |
+
+## Todo
+
+- [ ] Train autoregressive model
+- [ ] Allow disabling GPU usage
 
 ## License
 
