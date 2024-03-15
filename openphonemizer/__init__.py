@@ -38,10 +38,11 @@ from cached_path import cached_path
 from num2words import num2words
 import re, torch
 class OpenPhonemizer:
-    def __init__(self, model_checkpoint=None):
+    def __init__(self, model_checkpoint=None, disable_gpu=False):
         device = 'cpu'
         if torch.cuda.is_available(): device = 'cuda'
         if torch.backends.mps.is_available(): device = 'mps'
+        if disable_gpu: device = 'cpu'
         if not model_checkpoint:
             model_checkpoint = str(cached_path('hf://openphonemizer/ckpt/best_model.pt'))
         self.phonemizer = Phonemizer.from_checkpoint(model_checkpoint, device=device)
