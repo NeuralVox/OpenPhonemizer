@@ -46,6 +46,18 @@ phonemizer('test')
 phonemizer('hello this is a test')
 ```
 
+Please note that by default, OpenPhonemizer loads a built-in dictionary of words/phonemes. Because storage is quite inefficient, the model is ~100MB larger and uses more memory, however it is _much_ faster. If you're low on VRAM, you can either run the model exclusively on CPU (`disable_gpu=True`) or load a model without a dictionary.
+
+**Load without dictionary:**
+
+```python
+from cached_path import cached_path
+from openphonemizer import OpenPhonemizer
+phonemizer = OpenPhonemizer(str(cached_path('hf://openphonemizer/ckpt/best_model_no_optim.pt'))) # add disable_gpu=True to run on CPU only
+phonemizer('test')
+phonemizer('hello this is a test')
+```
+
 ## Evaluation
 
 We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternate Phonemizers to `espeak`.
