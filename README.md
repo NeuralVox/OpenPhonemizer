@@ -83,7 +83,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 
 OpenPhonemizer is open source software. You may use it under the BSD-3-Clause Clear license found in the LICENSE file.
 
-*By contributing to this repository, you grant the author the permission to change the license in the future at their sole discretion.*
+*By contributing to this repository, you grant the author the permission to change the license in the future at their sole discretion or offer different licenses to other individuals.*
 
 **NOTE:** Model weights may be licensed under different licenses. Please make sure to check all model weights for licenses.
 
