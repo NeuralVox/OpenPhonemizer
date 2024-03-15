@@ -83,10 +83,14 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 
 OpenPhonemizer is open source software. You may use it under the BSD-3-Clause Clear license found in the LICENSE file.
 
+Please note that OpenPhonemizer depends on software under different licenses, it is your responsibility when redistributing or modifying OpenPhonemizer to comply with these licenses (notably LGPL).
+
 *By contributing to this repository, you grant the author the permission to change the license in the future at their sole discretion or offer different licenses to other individuals.*
 
 **NOTE:** Model weights may be licensed under different licenses. Please make sure to check all model weights for licenses.
 
 ## Credits
 
-Special thanks to [Christian Schäfer](https://github.com/cschaefer26), who created [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer), on which OpenPhonemizer relies.
+Special thanks to [Christian Schäfer](https://github.com/cschaefer26), who created [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer), on which OpenPhonemizer relies. OpenPhonemizer uses [num2words](https://github.com/savoirfairelinux/num2words) to read out large numbers and [cached_path](https://github.com/allenai/cached_path) from Allen AI for caching models.
+
+OpenPhonemizer was created by [mrfakename](https://twitter.com/realmrfakename).
