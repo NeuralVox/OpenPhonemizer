@@ -25,13 +25,13 @@ Optional GPL-licensed portions are available [here](https://github.com/NeuralVox
 Easily install OpenPhonemizer:
 
 ```bash
-pip install openphonemizer
+pip install -U openphonemizer
 ```
 
 Or, install the latest version from Git:
 
 ```bash
-pip install "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer"
+pip install -U "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer"
 ```
 
 ## Usage
