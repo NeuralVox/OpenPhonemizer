@@ -12,7 +12,7 @@ Optional GPL-licensed portions are available [here](https://github.com/NeuralVox
 
 * Permissively licensed & open source
 * Fast & efficient
-* Works well with TTS models depending on phonemizer or espeak
+* Works well with TTS models that depend on phonemizer or espeak
 * Automatic GPU acceleration (CUDA/MPS) if available
 
 ## Project
