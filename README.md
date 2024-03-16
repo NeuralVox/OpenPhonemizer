@@ -89,7 +89,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 ## Todo
 
 - [ ] Train autoregressive model
-- [ ] Allow disabling GPU usage
+- [x] Allow disabling GPU usage
 
 ## License
 
