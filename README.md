@@ -60,7 +60,7 @@ phonemizer('hello this is a test')
 
 ## Evaluation
 
-We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternate Phonemizers to `espeak`.
+We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternate Phonemizers to `espeak` (this benchmark measures against `espeak`, assuming it's score is 100).
 
 **Run 1**
 
@@ -68,6 +68,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | --- | --- |
 | Gruut | 75.08 |
 | DeepPhonemizer | 85.24 |
+| G2P_EN | 86.16 |
 | OpenPhonemizer | 93.64 |
 
 **Run 2**
@@ -76,6 +77,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | --- | --- |
 | Gruut | 75.54 |
 | DeepPhonemizer | 85.03 |
+| G2P_EN | 86.28 |
 | OpenPhonemizer | 93.54 |
 
 **Run 3**
@@ -84,6 +86,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | --- | --- |
 | Gruut | 73.72 |
 | DeepPhonemizer | 84.64 |
+| G2P_EN | 85.74 |
 | OpenPhonemizer | 93.38 |
 
 ## Todo
