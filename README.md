@@ -78,6 +78,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | DeepPhonemizer | 85.24 |
 | G2P_EN | 86.16 |
 | OpenPhonemizer | 93.64 |
+| OpenPhonemizer Autoregressive | **93.74** |
 
 **Run 2**
 
@@ -87,6 +88,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | DeepPhonemizer | 85.03 |
 | G2P_EN | 86.28 |
 | OpenPhonemizer | 93.54 |
+| OpenPhonemizer Autoregressive | **93.59** |
 
 **Run 3**
 
@@ -96,6 +98,7 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 | DeepPhonemizer | 84.64 |
 | G2P_EN | 85.74 |
 | OpenPhonemizer | 93.38 |
+| OpenPhonemizer Autoregressive | **93.67** |
 
 ## Todo
 
