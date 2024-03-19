@@ -58,6 +58,14 @@ phonemizer('test')
 phonemizer('hello this is a test')
 ```
 
+**[NEW] Use autoregressive model:**
+
+NEW: An autoregressive model is now available. The autoregressive model is more accurate but slightly slower. To use the autoregressive model:
+
+```python
+OpenPhonemizer(str(cached_path('hf://openphonemizer/autoreg-ckpt/best_model.pt')))
+```
+
 ## Evaluation
 
 We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternate Phonemizers to `espeak` (this benchmark measures against `espeak`, assuming it's score is 100).
