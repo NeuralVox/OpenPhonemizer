@@ -70,35 +70,13 @@ OpenPhonemizer(str(cached_path('hf://openphonemizer/autoreg-ckpt/best_model.pt')
 
 We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternate Phonemizers to `espeak` (this benchmark measures against `espeak`, assuming it's score is 100).
 
-**Run 1**
-
-| Phonemizer | Score |
-| --- | --- |
-| Gruut | 75.08 |
-| DeepPhonemizer | 85.24 |
-| G2P_EN | 86.16 |
-| OpenPhonemizer | 93.64 |
-| OpenPhonemizer Autoregressive | **93.74** |
-
-**Run 2**
-
-| Phonemizer | Score |
-| --- | --- |
-| Gruut | 75.54 |
-| DeepPhonemizer | 85.03 |
-| G2P_EN | 86.28 |
-| OpenPhonemizer | 93.54 |
-| OpenPhonemizer Autoregressive | **93.59** |
-
-**Run 3**
-
-| Phonemizer | Score |
-| --- | --- |
-| Gruut | 73.72 |
-| DeepPhonemizer | 84.64 |
-| G2P_EN | 85.74 |
-| OpenPhonemizer | 93.38 |
-| OpenPhonemizer Autoregressive | **93.67** |
+| Phonemizer                    | Score (Run 1) | Score (Run 2) | Score (Run 3) | Average   |
+| ----------------------------- | ------------- | ------------- | ------------- | --------- |
+| Gruut                         | 75.08         | 75.54         | 73.72         | 74.78     |
+| DeepPhonemizer                | 85.24         | 85.03         | 84.64         | 84.97     |
+| G2P_EN                        | 86.16         | 86.28         | 85.74         | 86.06     |
+| OpenPhonemizer                | 93.64         | 93.54         | 93.38         | 93.52     |
+| OpenPhonemizer Autoregressive | **93.74**     | **93.59**     | **93.67**     | **93.67** |
 
 ## Todo
 
