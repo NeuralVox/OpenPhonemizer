@@ -102,8 +102,9 @@ We introduce PhonemizerBench, a benchmark to evaluate the similarity of alternat
 
 ## Todo
 
-- [ ] Train autoregressive model
+- [x] Train autoregressive model
 - [x] Allow disabling GPU usage
+- [ ] Multilingual support (any requests?)
 
 ## License
 
