@@ -1,6 +1,6 @@
 # OpenPhonemizer
 
-**[Audio Samples](https://neuralvox.github.io/OpenPhonemizer/) / [Models](https://huggingface.co/openphonemizer/ckpt) / [Live Demo](https://huggingface.co/spaces/openphonemizer/PhonemizerHub) / [Dataset](https://huggingface.co/datasets/mrfakename/ipa-phonemes-word-pairs)**
+**Code / [Audio Samples](https://neuralvox.github.io/OpenPhonemizer/) / [Models](https://huggingface.co/openphonemizer/ckpt) / [Live Demo](https://huggingface.co/spaces/openphonemizer/PhonemizerHub) / [Dataset](https://huggingface.co/datasets/mrfakename/ipa-phonemes-word-pairs)**
 
 A permissively licensed, open sourced, local IPA Phonemizer (G2P) powered by deep learning. This Phonemizer attempts to replicate the `espeak` Phonemizer while remaining permissively-licensed.
 
