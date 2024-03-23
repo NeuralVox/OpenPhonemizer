@@ -45,6 +45,7 @@ preprocessing:
       "ɜ",
       "ɝ",
       "ɹ",
+      "ɚ",
       "ɡ",
       "ɪ",
       "ʁ",
@@ -64,7 +65,7 @@ preprocessing:
       "̯",
       "͡",
       "θ",
-      "'",
+      "'"
     ]
   char_repeats: 3
   lowercase: true
