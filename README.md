@@ -38,6 +38,14 @@ pip install -U "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer
 
 ### OpenPhonemizer
 
+> [!WARNING]
+> OpenPhonemizer had a **bug** in the training script that caused significantly degraded performance. A new model has been released, but you may have cached an old version. To use the latest version, run (only needs to be done once):
+> ```python
+> from cached_path import cached_path
+> import os
+> os.remove(str(cached_path('hf://openphonemizer/ckpt/best_model.pt')))
+> ```
+
 ```python
 from openphonemizer import OpenPhonemizer
 phonemizer = OpenPhonemizer()
@@ -59,6 +67,9 @@ phonemizer('hello this is a test')
 ```
 
 **[NEW] Use autoregressive model:**
+
+> [!CAUTION]
+> OpenPhonemizer had a **bug** in the training script that caused significantly degraded performance. The autoregressive model has not yet been fixed. For now, please use the forward model.
 
 NEW: An autoregressive model is now available. The autoregressive model is more accurate but slightly slower. To use the autoregressive model:
 
