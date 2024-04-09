@@ -38,14 +38,6 @@ pip install -U "openphonemizer @ git+https://github.com/NeuralVox/OpenPhonemizer
 
 ### OpenPhonemizer
 
-> [!WARNING]
-> OpenPhonemizer had a **bug** in the training script that caused significantly degraded performance. A new model has been released, but you may have cached an old version. To use the latest version, run (only needs to be done once):
-> ```python
-> from cached_path import cached_path
-> import os
-> os.remove(str(cached_path('hf://openphonemizer/ckpt/best_model.pt')))
-> ```
-
 ```python
 from openphonemizer import OpenPhonemizer
 phonemizer = OpenPhonemizer()
