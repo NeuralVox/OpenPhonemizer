@@ -99,6 +99,8 @@ Please note that OpenPhonemizer depends on software under different licenses, it
 
 ## Credits
 
-Special thanks to [Christian Schäfer](https://github.com/cschaefer26), who created [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer), on which OpenPhonemizer relies. OpenPhonemizer uses [num2words](https://github.com/savoirfairelinux/num2words) to read out large numbers and [cached_path](https://github.com/allenai/cached_path) from Allen AI for caching models.
+OpenPhonemizer is essentially a wrapper (using different pre-trained models) around the amazing [Deep Phonemizer](https://github.com/as-ideas/DeepPhonemizer) package created by [Christian Schäfer](https://github.com/cschaefer26).
 
-OpenPhonemizer was created by [mrfakename](https://twitter.com/realmrfakename).
+OpenPhonemizer uses [num2words](https://github.com/savoirfairelinux/num2words) to read out large numbers and [cached_path](https://github.com/allenai/cached_path) from Allen AI for caching models.
+
+OpenPhonemizer models were trained by [mrfakename](https://twitter.com/realmrfakename).
