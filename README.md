@@ -1,3 +1,6 @@
+> [!WARNING]
+> OpenPhonemizer is no longer being maintained. I'm developing a new, improved phonemizer [here](https://github.com/fakerybakery/NextPhonemizer). (Repository will be made public shortly, license will be OSI-compliant)
+
 # OpenPhonemizer
 
 **Code / [Audio Samples](https://neuralvox.github.io/OpenPhonemizer/) / [Models](https://huggingface.co/openphonemizer/ckpt) / [Live Demo](https://huggingface.co/spaces/openphonemizer/PhonemizerHub) / [Dataset](https://huggingface.co/datasets/mrfakename/ipa-phonemes-word-pairs)**
